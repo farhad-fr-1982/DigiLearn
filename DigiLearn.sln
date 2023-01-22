@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2BF243D5-3697-4F78-B0EA-27BCD3852543}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Farhad-AIO\Downloads\Compressed\ClassDiagram.drawio = C:\Users\Farhad-AIO\Downloads\Compressed\ClassDiagram.drawio
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DD4A458-3DA3-4D31-BAD1-0A382EA2C2A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F82B0D65-3CCD-4159-B9C5-095BB82957DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndPoints", "EndPoints", "{178B7B29-87D1-403B-86D8-40C44B75AD08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B76DE118-ECCD-4244-98F4-C1A805CA57BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{C0FAE06D-A156-4F9E-90B5-F4BD6D4BCB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogModule", "src\Modules\Blog\BlogModule\BlogModule.csproj", "{EA7F6C38-1701-4932-B959-962AEB957FE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA7F6C38-1701-4932-B959-962AEB957FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7F6C38-1701-4932-B959-962AEB957FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7F6C38-1701-4932-B959-962AEB957FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7F6C38-1701-4932-B959-962AEB957FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F82B0D65-3CCD-4159-B9C5-095BB82957DF} = {5DD4A458-3DA3-4D31-BAD1-0A382EA2C2A1}
+		{178B7B29-87D1-403B-86D8-40C44B75AD08} = {5DD4A458-3DA3-4D31-BAD1-0A382EA2C2A1}
+		{B76DE118-ECCD-4244-98F4-C1A805CA57BE} = {5DD4A458-3DA3-4D31-BAD1-0A382EA2C2A1}
+		{C0FAE06D-A156-4F9E-90B5-F4BD6D4BCB86} = {F82B0D65-3CCD-4159-B9C5-095BB82957DF}
+		{EA7F6C38-1701-4932-B959-962AEB957FE1} = {C0FAE06D-A156-4F9E-90B5-F4BD6D4BCB86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C2A3220-5799-4540-AF94-E678509F4CC1}
+	EndGlobalSection
+EndGlobal
